@@ -10,8 +10,8 @@
     "preview": "vite preview",
     "clean": "rimraf -rf node_modules",
     "postinstall": "npm run generate-typescript-routing && npm run generate-typescript-data",
-    "generate-typescript-routing": "rimraf -rf src/clients-routing-api && git clone https://github.com/PTV-Group/clients-routing-api src/clients-routing-api",
-    "generate-typescript-data": "rimraf -rf src/clients-data-api && git clone https://github.com/PTV-Group/clients-data-api src/clients-data-api"
+    "generate-typescript-routing": "rimraf -rf src/clients-routing-api && git clone https://github.com/ptv-logistics/clients-routing-api src/clients-routing-api",
+    "generate-typescript-data": "rimraf -rf src/clients-data-api && git clone https://github.com/ptv-logistics/clients-data-api src/clients-data-api"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
